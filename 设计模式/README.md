@@ -1,0 +1,1 @@
+内容主要来自：[《Java设计模式》](https://book.douban.com/subject/30173863/)
