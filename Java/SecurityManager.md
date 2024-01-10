@@ -1,4 +1,4 @@
-# Secutiry Manager
+# Security Manager
 
 > 使用和介绍参考：https://juejin.cn/post/6844903657775824910
 
