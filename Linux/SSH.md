@@ -145,3 +145,7 @@ curl -x socks5://localhost:9000 http://localhost:8888
 ### 小结
 
 **-D**（动态转发） 和 **-L**（本地转发）相当于开启一个正向代理，-D 的访问目标是动态的，而 -L 的访问目标一开始就是固定的。**-R**（远程转发）相当于开启一个反向代理，相当于 -D + -L 反着来。
+
+### 参考
+- [ssh(1) — Linux manual page](https://www.man7.org/linux/man-pages/man1/ssh.1.html)
+- [SSH 教程 / SSH 端口转发](https://wangdoc.com/ssh/port-forwarding)
