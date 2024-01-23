@@ -3,4 +3,5 @@
     <simplefactory>A</simplefactory>
     <factorymethod>designpattern.factorymethod.ConcreteFactory</factorymethod>
     <abstractfactory>designpattern.abstractfactory.ConcreteFactory1</abstractfactory>
+    <builder>designpattern.builder.ConcreteBuilder</builder>
 </config>
