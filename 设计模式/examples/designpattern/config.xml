@@ -5,4 +5,5 @@
     <abstractfactory>designpattern.abstractfactory.ConcreteFactory1</abstractfactory>
     <builder>designpattern.builder.ConcreteBuilder</builder>
     <proxy>designpattern.proxy.Proxy</proxy>
+    <strategy>designpattern.strategy.ConcreteStrategy</strategy>
 </config>

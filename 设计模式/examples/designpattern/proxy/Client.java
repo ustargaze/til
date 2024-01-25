@@ -8,7 +8,7 @@ import java.lang.reflect.Proxy;
 public class Client {
 
     public static void main(String[] args) {
-        Subject subject = (Subject) XMLUtil.getBean(Client.class);
+        Subject subject = (Subject) XMLUtil.getBeanFromConfig("proxy");
         subject.request1();
         subject.request2();
 

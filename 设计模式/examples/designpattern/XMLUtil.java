@@ -8,13 +8,13 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XMLUtil {
-    public static String getConfigValue(Class<?> cls) {
+    public static String getConfigValue(String configName) {
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = documentBuilderFactory.newDocumentBuilder();
             Document document = builder.parse(XMLUtil.class.getResource("config.xml").getPath());
 
-            NodeList nodeList = document.getElementsByTagName(cls.getPackage().getName().split("\\.")[1]);
+            NodeList nodeList = document.getElementsByTagName(configName);
             Node classNameNode = nodeList.item(0).getFirstChild();
             return classNameNode.getNodeValue();
         } catch (Exception e) {
@@ -23,9 +23,9 @@ public class XMLUtil {
         }
     }
 
-    public static Object getBean(Class<?> cls) {
+    public static Object getBeanFromConfig(String configName) {
         try {
-            String className = getConfigValue(cls);
+            String className = getConfigValue(configName);
             Class<?> c = Class.forName(className);
             return c.newInstance();
         } catch (Exception e) {
