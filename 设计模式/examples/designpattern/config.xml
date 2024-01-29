@@ -6,4 +6,5 @@
     <builder>designpattern.builder.ConcreteBuilder</builder>
     <proxy>designpattern.proxy.Proxy</proxy>
     <strategy>designpattern.strategy.ConcreteStrategy</strategy>
+    <template>designpattern.template.ConcreteClass</template>
 </config>
