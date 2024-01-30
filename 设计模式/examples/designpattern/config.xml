@@ -7,4 +7,6 @@
     <proxy>designpattern.proxy.Proxy</proxy>
     <strategy>designpattern.strategy.ConcreteStrategy</strategy>
     <template>designpattern.template.ConcreteClass</template>
+    <bridge.abstraction>designpattern.bridge.RefinedAbstraction</bridge.abstraction>
+    <bridge.implementor>designpattern.bridge.ConcreteImplementorA</bridge.implementor>
 </config>
