@@ -9,4 +9,5 @@
     <template>designpattern.template.ConcreteClass</template>
     <bridge.abstraction>designpattern.bridge.RefinedAbstraction</bridge.abstraction>
     <bridge.implementor>designpattern.bridge.ConcreteImplementorA</bridge.implementor>
+    <adapter>designpattern.adapter.Adapter</adapter>
 </config>
