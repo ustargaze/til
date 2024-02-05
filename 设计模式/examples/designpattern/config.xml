@@ -10,4 +10,5 @@
     <bridge.abstraction>designpattern.bridge.RefinedAbstraction</bridge.abstraction>
     <bridge.implementor>designpattern.bridge.ConcreteImplementorA</bridge.implementor>
     <adapter>designpattern.adapter.Adapter</adapter>
+    <facade>designpattern.facade.ConcreteFacade1</facade>
 </config>
