@@ -11,4 +11,5 @@
     <bridge.implementor>designpattern.bridge.ConcreteImplementorA</bridge.implementor>
     <adapter>designpattern.adapter.Adapter</adapter>
     <facade>designpattern.facade.ConcreteFacade1</facade>
+    <command>designpattern.command.ConcreteCommand</command>
 </config>
