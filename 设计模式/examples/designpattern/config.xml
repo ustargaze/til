@@ -12,4 +12,5 @@
     <adapter>designpattern.adapter.Adapter</adapter>
     <facade>designpattern.facade.ConcreteFacade1</facade>
     <command>designpattern.command.ConcreteCommand</command>
+    <visitor>designpattern.visitor.ConcreteVisitorA</visitor>
 </config>
