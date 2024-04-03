@@ -1,0 +1,7 @@
+{
+  "name": "promise-example",
+  "main": "index.js",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}

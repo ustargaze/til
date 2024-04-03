@@ -2,3 +2,5 @@
 .DS_Store
 .obsidian
 out
+
+node_modules/
