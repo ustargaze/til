@@ -46,8 +46,8 @@ public static int[] zFunctionTrivial(String s) {
     >
     > $$
     > \overbrace{\underbrace{s_{0} ~ \dots ~ s_{r-i+1}}_{r-i+1} ~ \dots ~ s_{z[i-l]-1}  }^{z[i-l]} ~ \dots \\
-    > ~ \dots ~ \overbrace{\underbrace{s_{i-l} ~ \dots ~ s_{z[k]-1}}_{r-i+1} ~ \dots ~ s_{i-l+z[i-l]-1}  }^{z[i-l]} ~ \dots \\
-    > ~ \dots ~ \underset{l}{s_{k}} ~ \dots ~  \overbrace{\underbrace{ s_{i} ~ \dots \underset{r}{s_{k+z[k]-1}} }_{r-i+1} ~ \dots ~ s_{i+z[i-l]-1} }^{z[i-l]} ~ \dots
+    > s_{0} ~ \dots ~ \overbrace{\underbrace{s_{i-l} ~ \dots ~ s_{z[k]-1}}_{r-i+1} ~ \dots ~ s_{i-l+z[i-l]-1}  }^{z[i-l]} ~ \dots \\
+    > s_{0} ~ \dots ~ \underset{l}{s_{k}} ~ \dots ~  \overbrace{\underbrace{ s_{i} ~ \dots \underset{r}{s_{k+z[k]-1}} }_{r-i+1} ~ \dots ~ s_{i+z[i-l]-1} }^{z[i-l]} ~ \dots
     > $$
     > 因为 $z[i-l] \ge r-i+1$ 可以确定 $s[0,r-i+1]=s[i-l, z[k]-1]=s[i,k+z[k]-1]$，所以 $z[i]$ 最小为 $r-i+1$，还需要继续枚举看能够继续扩展。
 - 如果 $i > r$，那么直接按照朴素算法，从 $s[i]$ 开始比较，暴力求出 $z[i]$。
