@@ -152,7 +152,7 @@ public static List<Integer> kmp(String s1, String s2) {
         }
         if (j == n) {
             res.add(i - n + 1);
-            j = 0;
+            j = pi[j - 1];
         }
     }
     return res;
